@@ -67,15 +67,6 @@ body {
     }
 }
 /*______________________________________________________________*/
-.contact-info__link-block{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-}
-.contact-info__item:nth-child(2n) {
-    grid-column: span 1; /* Растягиваем элемент на всю доступную ширину */
-    justify-self: end; /* Выравниваем элементы по правому краю */
-}
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
@@ -108,7 +99,6 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
-    width: 200px;
 }
 
 .contact-info__item:not(:last-child) {
